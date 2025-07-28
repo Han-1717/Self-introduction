@@ -139,7 +139,10 @@ function initSkillCube() {
 
 // 更新技能信息
 function updateSkillInfo() {
-    const skill = skills[skillIndex];
+    const skill = skills[
+        { icon: '🏸', name: '羽毛球', level: 'Lv.1', progress: 20 },
+        {icon:'📷',name:'摄影',level:'lv.3',progress:60},
+        {icon;'💻',name:"编程",level:'lv.1",progress:30} ];
     const badgeIcon = document.querySelector('.badge-icon');
     const skillLevel = document.querySelector('.skill-level');
     const progressRing = document.querySelector('.progress-ring svg circle:last-child');
